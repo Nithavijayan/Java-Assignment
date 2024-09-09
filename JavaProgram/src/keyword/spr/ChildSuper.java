@@ -8,8 +8,8 @@ public class ChildSuper extends ParentSuper
 	{	
 		super.num=n1; //parent te num lekku assign cheithu
 		num=n1;// child te num lekku assign cheithu
-		display();
-		super.display();
+		display();         //child method executed
+		super.display();// parent method executed
 	}
 	public void display()
 	{

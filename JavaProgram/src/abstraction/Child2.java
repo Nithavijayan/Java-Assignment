@@ -4,12 +4,12 @@ public class Child2 extends ParentAbstract
 {
 	int product;
 	
-	public void number(int num1,int num2)
+	public void number(int num1,int num2)//  abstract(parameterized) method implementation
 	{
 		this.num1=num1;
 		this.num2=num2;
 	}
-	public int operation()
+	public int operation()//no argument abstract method implement
 	{
 		product=num1*num2;
 		return product;
